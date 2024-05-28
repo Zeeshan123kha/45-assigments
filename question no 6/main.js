@@ -1,4 +1,5 @@
-var personName = "\n \t Muhammad Amir \t \n ";
+"use strict";
+let personName = `\n \t Muhammad Amir \t \n `;
 console.log(personName);
-var stripped = personName.trim();
+let stripped = personName.trim();
 console.log(stripped);

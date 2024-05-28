@@ -1,4 +1,5 @@
-var personName = "Zeeshan";
+"use strict";
+let personName = "Zeeshan";
 console.log("lowercase", personName.toLowerCase());
 console.log("uppercase", personName.toUpperCase());
-console.log("Title", personName.replace(/\bw/g, function (c) { return c.toUpperCase(); }));
+console.log("Titlecase", personName.replace(/\bw/g, c => c.toUpperCase()));
